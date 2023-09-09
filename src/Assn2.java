@@ -3,7 +3,6 @@ import java.math.BigInteger;
 
 public class Assn2 {
     public static void main(String[] args) {
-
         if (args.length < 2) {
             Help.print();
             return;
@@ -49,7 +48,7 @@ public class Assn2 {
                     i++;
                 }
                 default -> {
-                    Help.unrecognized(arg);
+                    Help.isInt(arg);
                     return;
                 }
             }
